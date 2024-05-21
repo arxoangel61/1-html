@@ -1,0 +1,54 @@
+
+
+a {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 582px;
+    width: 100%;
+}
+
+
+.form {
+    width: 394px;
+}
+
+.form__input input{
+    width: 386px;
+}
+
+.form__input--fio{
+    display: flex;
+    gap: 2px;
+    
+}
+
+
+.form__input--fio input{
+   
+    width: 394px;
+}
+
+
+.form label{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.form__btn button {
+    width: 100%;
+}
+
+.form__checkbox {
+    display: flex;
+    width: 394px;
+    justify-content: center;
+    align-items: center;
+    gap: 0 5px;
+}
