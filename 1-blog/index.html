@@ -9,70 +9,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3:ital,wght@0,600;1,600&display=swap" rel="stylesheet"
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="header__nav">
-                <div class="header__logo">
-                    <span><p>B</p></span><p class="header__logo--text">Мой блог</p>
-                </div>
-                <div class="header__list">
-                    <ul class="header__items">
-                        <li class="header__item">HTML и CSS</li>
-                        <li class="header__item">Frontend</li>
-                        <li class="header__item">Backend</li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="header__input">
-                <form action="/test">
-                    <label for="text">
-                        <input type="text" placeholder="Поиск" id="text">
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g opacity="0.1" clip-path="url(#clip0_2_4373)">
-                              <path d="M6.41667 11.0833C8.994 11.0833 11.0833 8.994 11.0833 6.41667C11.0833 3.83934 8.994 1.75 6.41667 1.75C3.83934 1.75 1.75 3.83934 1.75 6.41667C1.75 8.994 3.83934 11.0833 6.41667 11.0833Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M12.25 12.25L9.71249 9.71246" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                              <clipPath id="clip0_2_4373">
-                                <rect width="14" height="14" fill="white" />
-                              </clipPath>
-                            </defs>
-                          </svg>
-                    </label>
-                </form>
+    <header class="header">
+        <div class="header__info">
+            <div class="header__logo">
+                <a class="header__logo--link" href="#!"><span><p>B</p></span><p class="header__logo--text">Мой блог</p></a>
             </div>
-        </header>
-    
-        <main class="main">
-            <section class="frontend">
-                <div class="frontend__desc">
-                    <h2>FRONTEND 12 мая 2024</h2>
+            <nav class="header__nav">
+                <ul class="header__items">
+                    <li class="header__item"><a href="#!">HTML и CSS</a></li>
+                    <li class="header__item"><a href="#!">Frontend</a></li>
+                    <li class="header__item"><a href="#!">Backend</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__input">
+            <form action="/test">
+                <label for="text">
+                    <input type="text" placeholder="Поиск" id="text">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.1" clip-path="url(#clip0_2_4373)">
+                          <path d="M6.41667 11.0833C8.994 11.0833 11.0833 8.994 11.0833 6.41667C11.0833 3.83934 8.994 1.75 6.41667 1.75C3.83934 1.75 1.75 3.83934 1.75 6.41667C1.75 8.994 3.83934 11.0833 6.41667 11.0833Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M12.25 12.25L9.71249 9.71246" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2_4373">
+                            <rect width="14" height="14" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </label>
+            </form>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="frontend">
+            <div class="frontend__desc">
+                <h2>FRONTEND 12 мая 2024</h2>
+            </div>
+            <h1 class="frontend__title">  Теория цвета - Как цвет влияет на поведение потребителей</h1>
+            <div class="frontend__info">
+                <div class="frontend__img">
+                    <img src="img/Group 8.png" alt="фото">
                 </div>
-                <div class="frontend__title">
-                    <h1>  Теория цвета - Как цвет влияет на поведение потребителей</h1>
-                </div>
-                <div class="frontend__info">
-                    <div class="frontend__img">
-                        <img src="img/Group 8.png" alt="фото">
-                    </div>
-                    <div class="frontend__fio"></div>
-                </div>
-                <div class="frontend__page">
-                    <img src="img/Rectangle.jpg" alt="картинка компьютера">
-                </div>
-                <div class="frontend__text">
-                    <p class="frontend__text--main">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная цветовая гамма сайта помогает привлечь и удержать внимание пользователей, сформировать положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить конверсию.</p>
-                    <p class="frontend__text--develop">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на поведение пользователей.</p>
-                    <p class="frontend__text--develop">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</p>
-                </div>
-    
-            </section>
-        </main>
-    
-        <footer class="footer">
-            <p>Все права защищены (c) 2024</p>
-        </footer>
-    </div>
+                <div class="frontend__fio"></div>
+            </div>
+            <div class="frontend__page">
+                <img src="img/Rectangle.jpg" alt="картинка компьютера">
+            </div>
+            <div class="frontend__text">
+                <p class="frontend__text--main">Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета и различные их комбинации влияют на психику человека, а значит, во многом определяют его поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная цветовая гамма сайта помогает привлечь и удержать внимание пользователей, сформировать положительное отношение к продукту, подтолкнуть посетителей к совершению целевых действий, повысить конверсию.</p>
+                <p class="frontend__text--develop">Универсального ответа на вопрос, как тот или иной цвет влияет на разных людей, нет. Эмоциональная и поведенческая реакция каждого человека зависит от личного опыта. Вместе с тем можно выделить определенные закономерности влияния цветов на поведение пользователей.</p>
+                <p class="frontend__text--develop">В исследовании «Влияние цвета на маркетинг» (Impact of color on marketing) говорится, что использование разных цветов может существенно влиять на настроение и поведение потребителей. Утверждается, что от 60 до 90% покупателей (в зависимости от категории продукта) дают положительную или отрицательную оценку товару, основываясь только на его цвете.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Все права защищены (c) 2024</p>
+    </footer>
  
 </body>
 </html>

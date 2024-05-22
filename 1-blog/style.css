@@ -13,14 +13,8 @@ body {
     align-items: center;
 }
 
-.container {
-    max-width: 1200px;
-    width: 100%;
-
-}
-
-h2, p, a, h1, span {
-
+a {
+    color: #fff;
 }
 
 
@@ -35,7 +29,15 @@ h2, p, a, h1, span {
     align-items: center;
     justify-content: space-between;
     padding: 0px 60px;
+    max-width: 1200px;
+    width: 100%;
 }
+
+.header__info {
+    display: flex;
+    gap: 0 30px;
+}
+
 
 .header__nav {
     display: flex;
@@ -48,11 +50,18 @@ h2, p, a, h1, span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0 10px;
     cursor: pointer;
 }
 
-.header__logo>span>p {
+.header__logo--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+}
+
+
+.header__logo>a>span>p {
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
     background: #4b5563;
     border-radius: 3px;
@@ -72,8 +81,7 @@ h2, p, a, h1, span {
     font-weight: 400;
     font-size: 18px;
 }
-.header__list {
-}
+
 .header__items {
     display: flex;
     gap: 0 50px;
@@ -84,6 +92,9 @@ h2, p, a, h1, span {
     font-size: 16px;
     cursor: pointer;
 }
+
+
+
 
 .header__input {
    position: relative;
@@ -115,6 +126,12 @@ h2, p, a, h1, span {
 
 /* секция frontend */
 
+.main {
+    max-width: 1200px;
+    width: 100%;
+}
+
+
 .frontend {
     display: flex;
     flex-direction: column;
@@ -133,7 +150,7 @@ h2, p, a, h1, span {
     margin-top: 14px;
 }
 
-.frontend__title h1{
+.frontend__title{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 24px;
@@ -184,6 +201,8 @@ h2, p, a, h1, span {
 .footer {
     margin-top: 100px;
     padding-bottom: 77px;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .footer p {
