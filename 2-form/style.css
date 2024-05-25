@@ -4,6 +4,10 @@ a {
     text-decoration: underline;
 }
 
+body {
+    background-color: #f5b2b2;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -16,6 +20,11 @@ a {
 
 .form {
     width: 394px;
+    background-color: #fff;
+}
+
+.form__contain {
+    text-align: center;
 }
 
 .form__input input{
