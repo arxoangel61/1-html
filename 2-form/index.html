@@ -9,29 +9,33 @@
 </head>
 <body>
     <main class="main">
-        <h1>Регистрация</h1>
-        <p>Уже есть аккаунт?
-            <a href="#!">Войти</a></p>
-        <form class="form" action="#">
-            <div class="form__input">
-                <input type="text" placeholder="Ваша компания">
+        <section class="form">
+            <div class="form__contain">
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт?
+                <a href="#!">Войти</a></p>
             </div>
-            <div class="form__input--fio">
-                <input type="name" placeholder="Имя">
-                <input type="surname" placeholder="Фамилия">
-            </div>
-            <div class="form__input">
-                <input type="email" placeholder="E-mail">
-            </div>
-            <div class="form__btn">
-                <button>Зарегистрироваться</button>
-            </div>
-            <div class="form__checkbox">
-                <input type="checkbox" name="agree" id="agree"> 
-                <label for="agree">Я прочитал и принимаю</label>
-                <a href="#!">Условия использования</a>
-            </div>
-        </form>
+            <form action="#">
+                <div class="form__input">
+                    <input type="text" placeholder="Ваша компания">
+                </div>
+                <div class="form__input--fio">
+                    <input type="name" placeholder="Имя">
+                    <input type="surname" placeholder="Фамилия">
+                </div>
+                <div class="form__input">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="form__btn">
+                    <button>Зарегистрироваться</button>
+                </div>
+                <div class="form__checkbox">
+                    <input type="checkbox" name="agree" id="agree"> 
+                    <label for="agree">Я прочитал и принимаю</label>
+                    <a href="#!">Условия использования</a>
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 </html>
