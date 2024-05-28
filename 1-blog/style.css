@@ -33,6 +33,7 @@ a {
     padding: 0px 60px;
     max-width: 1200px;
     width: 100%;
+    padding-bottom: 80px;
 }
 
 .header__info {
@@ -139,7 +140,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    
 }
 .frontend__desc h2{
     font-family: var(--font-family);
