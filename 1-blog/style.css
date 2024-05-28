@@ -1,4 +1,5 @@
 
+
 :root {
     --font-family: "Roboto", sans-serif;
     --second-family: "Source Sans Pro", sans-serif;
@@ -11,6 +12,8 @@ body {
     display: flex;
     flex-direction: column;   
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 77px;
 }
 
 a {
@@ -24,7 +27,6 @@ a {
 /* секция header */
 
 .header {
-    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,13 +37,12 @@ a {
 
 .header__info {
     display: flex;
+    align-items: center;
     gap: 0 30px;
 }
 
 
-.header__nav {
-    display: flex;
-    align-items: center;
+.header__items {
     gap: 0 77px;
     
 }
@@ -129,6 +130,7 @@ a {
 .main {
     max-width: 1200px;
     width: 100%;
+    
 }
 
 
@@ -148,6 +150,7 @@ a {
 
 .frontend__title{
     margin-top: 14px;
+    
 }
 
 .frontend__title{
@@ -157,6 +160,7 @@ a {
     line-height: 158%;
     width: 525px;
     text-align: center;
+    
 }
 .frontend__info {
     margin-top: 30px;
@@ -178,6 +182,7 @@ a {
 .frontend__text {
     margin-top: 70px;
     width: 708px;
+    
 }
 
 .frontend__text--main {
@@ -200,7 +205,6 @@ a {
 
 .footer {
     margin-top: 100px;
-    padding-bottom: 77px;
     max-width: 1200px;
     width: 100%;
 }
