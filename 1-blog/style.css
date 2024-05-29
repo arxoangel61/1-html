@@ -165,11 +165,33 @@ a {
 }
 .frontend__info {
     margin-top: 30px;
+    display: flex;
+    gap: 0 16px;
+    align-items: center;
 }
-.frontend__img {
+
+.frontend__info--text {
+    display: flex;
+    flex-direction: column;
+   
 }
-.frontend__fio {
+.frontend__info--name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #fff;
 }
+.frontend__info--prof {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #fff;
+    opacity: 0.6;
+}
+
+
 .frontend__page {
     margin-top: 28px;
     
