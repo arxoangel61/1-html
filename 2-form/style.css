@@ -11,11 +11,8 @@ a {
 
 body {
     background-color: #f5b2b2;
-<<<<<<< HEAD
     position: relative;
     height: 100vh;
-=======
->>>>>>> develop
 }
 
 .main {
@@ -33,6 +30,13 @@ body {
 }
 
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px 0;
+}
+
+
 .form {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -46,7 +50,6 @@ body {
 
 .form__contain {
     text-align: center;
-<<<<<<< HEAD
 }
 
 .form__contain h1{
@@ -69,12 +72,10 @@ body {
 
 form {
     margin-top: 47px;
-=======
->>>>>>> develop
 }
 
 .form__input input{
-    width: 386px;
+    width: 97%;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 16px;
@@ -82,10 +83,10 @@ form {
     padding: 10px 0;
     border: 1px solid #f5f5f5;
     border-radius: 5px;
+    padding-left: 11px;
 }
 
 .form__input--fio{
-    margin-top: 21px;
     display: flex;
     gap: 2px;
     
@@ -100,18 +101,28 @@ form {
     color: #999;
     width: 394px;
     padding: 10px 0;
-    border-radius: 5px;
     background-color: #f5f5f5;
     border: none;
-
+    padding-left: 11px;
 }
 
+.form__input--name {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form__input--surname {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
 .form__input--email {
-    margin-top: 21px;
 }
 
 .form__input--email input{
-    width: 100%;
+    width: 97%;
     border-radius: 5px;
     font-family: var(--font-family);
     font-style: italic;
@@ -121,6 +132,7 @@ form {
     padding: 10px 0;
     border: none;
     background-color: #f5f5f5;
+    padding-left: 11px;
 }
 
 
@@ -133,7 +145,6 @@ form {
 
 
 .form__btn {
-    margin-top: 22px;
 }
 
 .form__btn button {
@@ -147,6 +158,7 @@ form {
     border: none;
     padding: 10px 0;
     color: #fff; 
+    cursor: pointer;
 }
 
 .form__btn svg {
