@@ -1,0 +1,25 @@
+.promo {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 144px;
+}
+.promo__content {
+    display: flex;
+    gap: 0 64px;
+}
+.promo__item {
+    display: flex;
+    gap: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo__item p {
+    max-width: 328px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000;
+}

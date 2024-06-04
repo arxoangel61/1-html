@@ -1,0 +1,54 @@
+.marketing {
+    padding-bottom: 112px;
+}
+
+.marketing__item {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0 137px;
+    margin-bottom: 130px;
+}
+
+.item {
+    margin-bottom: 0;
+}
+
+
+.marketing__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px 0;
+}
+
+.marketing__content h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #000;
+    max-width: 571px;
+    width: 100%;
+}
+
+.marketing__content p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: rgba(78, 93, 124, 0.5);
+    max-width: 566px;
+    width: 100%;
+}
+
+
+.marketing__img {
+}
+
+.marketing__img--table {
+    position: relative;
+}
+
+.marketing__img--money {
+    position: absolute;
+    top: 96px;
+    left: 125px;
+}

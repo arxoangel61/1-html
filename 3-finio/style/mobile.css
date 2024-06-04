@@ -1,0 +1,28 @@
+.mobile {
+    margin-top: 161px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.mobile__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+.mobile__text {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(78, 93, 124, 0.5);
+}
+.mobile__img {
+    margin-top: 40px;
+    max-width: 1128px;
+    width: 100%;
+}

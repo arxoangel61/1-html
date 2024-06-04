@@ -1,0 +1,46 @@
+.financial {
+    display: flex;
+    
+    background: linear-gradient(175deg, #357EFE 70%, #fff 30%);
+    padding-left: 250px;
+}
+
+.financial__contant {
+}
+
+.financial__title {
+    max-width: 515px;
+    width: 100%;
+}
+
+
+.financial__title h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.financial__btn  {
+    margin-top: 40px;
+}
+
+
+.financial__btn button{
+    border-radius: 34px;
+    padding: 12px 32px;
+    color: #357efe;
+}
+.btn {
+}
+.financial__partners {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px 18px;
+    max-width: 334px;
+}
+.financial__img img {
+    max-width: 1039px;
+    width: 100%;
+}
