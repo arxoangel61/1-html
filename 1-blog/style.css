@@ -9,15 +9,19 @@
 body {
     background: linear-gradient(#374151 0%, #111827 100%);
     color: #fff;
-    display: flex;
-    flex-direction: column;   
-    align-items: center;
+    margin: 0 auto;
 }
 
 a {
     color: #fff;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0px 60px;
+}
 
 
 
@@ -25,15 +29,17 @@ a {
 /* секция header */
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 60px;
-    max-width: 1200px;
-    width: 100%;
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 .header__info {
     display: flex;
@@ -128,19 +134,22 @@ a {
 /* секция frontend */
 
 .main {
-    max-width: 1200px;
-    width: 100%;
+    
+}
+
+.frontend {
     
 }
 
 
-.frontend {
+.frontend__container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
+
+
 .frontend__desc h2{
     font-family: var(--font-family);
     font-weight: 400;
@@ -227,8 +236,6 @@ a {
 
 .footer {
     margin-top: 100px;
-    max-width: 1200px;
-    width: 100%;
     padding-bottom: 77px;
 }
 
