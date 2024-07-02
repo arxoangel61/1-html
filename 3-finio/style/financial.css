@@ -44,3 +44,68 @@
     max-width: 1039px;
     width: 100%;
 }
+
+
+@media (max-width: 1600px) {
+    .financial__img {
+        display: none;
+    }
+
+    .financial__contant {
+        
+        
+    }
+
+    .financial__partners {
+        margin-top: 40px;
+        padding-bottom: 260px;
+    }
+
+    .financial__title {
+        max-width: 100%;
+        text-align: center;
+        
+    }
+
+    .financial__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .financial {
+        padding-left: 250px;
+        padding-right: 250px;
+
+    }
+
+
+    @media (max-width: 900px) {
+
+        .financial {
+            padding-left: 25px;
+            padding-right: 25px;
+            justify-content: center;
+        }
+
+
+        .financial__title h1{
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 120%;
+            text-align: left;
+        }
+
+        .financial__title {
+            max-width: 328px;
+            width: 100%;
+        }
+
+        .financial__btn {
+            margin-top: 32px
+        }
+        .financial__partners  {
+            margin-top: 56px;
+        }
+     
+    }
+}

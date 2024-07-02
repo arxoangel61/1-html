@@ -1,0 +1,134 @@
+.footer {
+    padding-top: 80px;
+    background-color: #1A1D25;
+    color: rgba(255, 255, 255, 0.7);;
+}
+.container {
+}
+
+.footer__content {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+
+.footer__logo a{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__logo p {
+    max-width: 283px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.footer__list {
+    display: flex;
+    gap: 0 150px;
+    flex-wrap: wrap;
+}
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+
+.footer__item li{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+   
+}
+
+
+.footer__item li a{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.footer__contact p>span>a {
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.footer__contact p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__contact p a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.footer__rights {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
+}
+
+.footer__rights p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer__svg {
+    display: flex;
+    justify-content: center;
+    gap: 0 25px;
+}
+
+.footer__line {
+    background-color: rgba(255, 255, 255, 0.08);
+    height: 2px;
+    width: 100%;
+}
+
+@media (max-width: 750px) { 
+    .footer__content {
+        flex-direction: column;
+    }
+    .footer__list {
+        flex-direction: column;
+        gap: 48px 0;
+    }
+    .footer__rights {
+        flex-direction: column-reverse;
+    }
+    .footer__rights p {
+        margin: 0 auto;
+    }
+    .footer__logo p {
+        margin-top: 16px;
+    }
+    .footer__list {
+        margin-top: 40px;
+    }
+    .footer__contact {
+        margin-top: 48px;
+    }
+    .footer__contact p {
+        line-height: 35px;
+    }
+    .footer__svg {
+        justify-content: start;
+    }
+    .footer__rights p {
+        margin: 0;
+        margin-top: 24px;
+    }
+   
+}

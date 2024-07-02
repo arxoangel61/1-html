@@ -14,3 +14,43 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.container {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+
+
+.none {
+    display: none;
+}
+
+
+.link {
+    height: 2px;
+    background-color: rgba(78, 93, 124, 0.08);
+    max-width: 1338px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+@media (max-width: 1300px) { 
+    .link {
+        width: 380px;
+        
+      
+    }
+}
+
+
+@media (max-width: 700px) { 
+    .link {
+        width: 328px;
+       
+       
+    }
+}

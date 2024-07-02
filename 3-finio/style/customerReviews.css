@@ -1,0 +1,199 @@
+.customerReviews {
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.customerReviews h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #000;
+}
+
+.customerReviews__container {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.customerReviews__btn--left, .customerReviews__btn--right  {
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.customerReviews__btn--left:hover, .customerReviews__btn--right:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.customerReviews__content {
+    position: relative;
+    height: 438px;
+    max-width: 578px;
+    width: 100%;
+    background-color: #357EFE;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customerReviews__text--title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    max-width: 421px;
+    
+}
+
+
+.customerReviews__text--name {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+   
+    margin-top: 30px;
+}
+.customerReviews__text--info {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    
+}
+.customerReviews__image {
+    height: 438px;
+    max-width: 578px;
+    width: 100%;
+    background-image: url(../img/foto__woman2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.customerReviews__btn--left {
+    position: absolute;
+    left: 24px;
+    top: calc(100% - 50%);
+}
+
+.customerReviews__btn--right {
+    position: absolute;
+    right: 24px;
+    bottom: calc(100% - 59%);
+}
+
+.customerReviews__text {
+    margin-left: 100px;
+}
+
+.customerReviews__slider {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1005px) { 
+    .customerReviews__btn--left, .customerReviews__btn--right {
+        display: none;
+    }
+    .customerReviews__container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customerReviews__content {
+        display: block;
+
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+
+        height: 100%;
+    }
+
+    .customerReviews__text {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .customerReviews__text--title {
+        font-size: 24px;
+        margin-top: 48px;
+    }
+    .customerReviews__text--name {
+        font-size: 17px;
+        margin-top: 24px;
+    }
+    .customerReviews__text--info {
+        font-size: 17px;
+    }
+
+
+    .customerReviews__slider {
+        display: flex;
+        margin-top: 48px;
+        padding-bottom: 48px;
+        justify-content: center;
+      
+    }
+    .customerReviews__items {
+        display: flex;
+        gap: 0 8px;
+    }
+    .customerReviews__item {
+        width: 8px;
+        height: 8px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 100%;
+    }
+    .customerReviews__item:hover {
+        background-color: #fff;
+    }
+
+    .customerReviews__item--white {
+        background-color: #fff;
+    }
+    
+    
+    .customerReviews__image {
+        position: relative;
+     
+    }
+
+    .customerReviews__image::before {
+        content: "";
+        background-image: url(../img/foto__woman2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        
+    }
+
+}

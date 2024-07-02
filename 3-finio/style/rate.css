@@ -1,0 +1,203 @@
+.rate {
+    padding-bottom: 80px;
+}
+
+
+
+
+.rate__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+.rate__text {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(78, 93, 124, 0.5);
+}
+.rate__content {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 0 24px;
+
+}
+.rate__item {
+    width: calc(369px - 80px);
+    
+    padding: 0 40px;
+    box-shadow: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+    border-radius: 8px;
+}
+.rate__list {
+}
+
+.rate__item h3{
+    padding-top: 93px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    color: #000;
+}
+
+.rate__item p{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    color: rgba(78, 93, 124, 0.5);
+}
+
+.rate__list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rate__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 33px 0;
+    
+    
+}
+
+.rate__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 48px;
+}
+
+.rate__btn button {
+    border-radius: 47px;
+    padding: 12px 50px;
+    background-color: #357efe;
+    color: #fff;
+}
+
+
+/* выгодное предложение */
+.rate__item--top {
+    background-color: #357efe;
+    color: #fff;
+}
+
+.rate__item--top h3 {
+    color: #fff;
+}
+
+.rate__item--top p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.rate__item--top button {
+    background-color: #fff;
+    color: #357efe;
+}
+
+.rate__item--top > .rate__list {
+    margin-top: 32px;
+}
+
+.rate__item--top > .rate__btn {
+    margin-top: 34px;
+}
+
+
+/* скидка */
+.rate__item--discount, .rate__item--top {
+    position: relative;
+}
+
+
+.rate__item--discount::before, .rate__item--discount::after, .rate__item--top::before, .rate__item--top::after {
+    position: absolute;
+    font-size: 15px;
+    line-height: 140%;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #1abc9c;
+}
+
+
+.rate__item--discount::before, .rate__item--top::before {
+    content: "Выгода";
+    font-weight: 500;
+    padding: 4px 16px;
+    top: 48px;
+    left: 40px;
+}
+
+
+.rate__item--discount::after, .rate__item--top::after {
+    font-weight: 800;
+    padding: 4px 16px;
+    padding-left: 0;
+    top: 48px;
+    left: 115px;
+}
+
+.rate__item--discount::after {
+    content: "25%";
+
+}
+
+.rate__item--top::after {
+    content: "50%";
+
+}
+
+/* span */
+
+.rate__list ul > li > span {
+    color: #fff;
+    background-color: #FFC736;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.rate__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1310px) {
+    .rate__content {
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+}
+
+
+
+
+@media (max-width: 710px) {
+    .rate__title  {
+        font-size: 36px;
+        text-align: left;
+    }
+    .rate > .container {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+    .rate__text {
+        text-align: left;
+        width: 328px;
+    }
+    .rate__item {
+        width: 100%;
+    }
+    .rate {
+        padding-bottom: 64px
+    }
+}
