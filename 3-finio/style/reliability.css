@@ -1,5 +1,9 @@
-.reliability > .container{
+
+.reliability {
     margin-top: 126px;
+}
+
+.reliability__container{
     display: flex;
     justify-content: center;
     gap: 0 70px;
@@ -29,7 +33,7 @@
 
 
 @media (max-width: 1530px) { 
-    .reliability > .container {
+    .reliability__container {
         flex-wrap: wrap;
         padding-left: 100px;
         padding-right: 100px;
@@ -40,7 +44,7 @@
 
 
 @media (max-width: 1051px) {
-    .reliability > .container {
+    .reliability__container {
         flex-direction: column;
         align-items: center;
         gap: 32px 0px;
@@ -63,8 +67,11 @@
         max-width: 328px;
     }
 
-    .reliability > .container {
+    .reliability {
         margin-top: 64px;
+    }
+
+    .reliability__container {
         padding-left: 23px;
         padding-right: 23px;
         align-items: start;

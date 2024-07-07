@@ -112,7 +112,10 @@
 }
 
 
-.marketing__img {
+.marketing__img picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .marketing__img--table {
@@ -121,7 +124,7 @@
 
 .marketing__img--money {
     position: absolute;
-    top: 96px;
+    top: -25px;
     left: 125px;
 }
 
@@ -217,7 +220,7 @@ picture {
         line-height: 140%;
         max-width: 310px;
     }
-    .marketing__img--money {
+    .marketing__img--none {
         display: none;
     }
 

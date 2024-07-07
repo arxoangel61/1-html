@@ -1,4 +1,4 @@
-.mobile > .container {
+.mobile__container {
     margin-top: 161px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 610px) { 
-    .mobile > .container{
+    .mobile__container{
         margin-top: 64px;
         align-items: start;
 

@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="style/footerFinio.css">
 </head>
 <body>
-    <header class="header container">
+    <header class="header">
+      <div class="container header__container">
         <div class="header__logo">
             <a href="#!">finio</a>
         </div>
@@ -39,6 +40,7 @@
         </div>
         <div class="header__menu"></div>
         <div class="header__link"></div>
+      </div>
     </header>
     
     <main class="main">
@@ -145,27 +147,31 @@
         </section>
         <div class="link"></div>
         <section class="marketing"> 
-            <div class="container">
-              <div class="marketing__container">
+            <div class="container marketing__container">
+             
                 <div class="marketing__item grid-item1 marketing__grid">
                   <div class="link marketing__link"></div>
                   <div class="marketing__content">
                       <h3>Предотвращайте <br> кассовые разрывы	</h3>
                       <p>Заранее планируйте предстоящие платежи и <br> поступления средств. Тем самым, вы избежите <br> неприятной ситуации с нехваткой средств на счетах</p>
                   </div>
-                  <picture class="marketing__img">
-                    <source media="(min-width: 928px)" srcset="img/balance.png">
-                    <source media="(min-width: 385px)" srcset="img/balance-mobile.png">
-                    <img src="img/balance.png" alt="баланс на конец месяца">
-                  </picture>
+                  <div class="marketing__img">
+                    <picture>
+                      <source media="(min-width: 928px)" srcset="img/balance.png">
+                      <source media="(min-width: 385px)" srcset="img/balance-mobile.png">
+                      <img src="img/balance.png" style="max-width: 100%" alt="баланс на конец месяца">
+                    </picture>
+                  </div>
               </div>
               <div class="marketing__item grid-item2 marketing__grid">
                   <div class="link marketing__link"></div>
-                  <picture class="marketing__img">
-                    <source media="(min-width: 928px)" srcset="img/report.png">
-                    <source media="(min-width: 385px)" srcset="img/report-mobile.png">
-                    <img src="img/report.png" alt="отчеты">
-                  </picture>
+                  <div class="marketing__img">
+                    <picture>
+                      <source media="(min-width: 928px)" srcset="img/report.png">
+                      <source media="(min-width: 385px)" srcset="img/report-mobile.png">
+                      <img src="img/report.png" style="max-width: 100%" alt="отчеты">
+                    </picture>
+                  </div>
                   <div class="marketing__content">
                       <h3>Отчёты о прибыли и убытках всегда под рукой</h3>
                       <p>Получите полную информацию о состоянии вашего бизнеса, включающую все необходимые показатели для принятия правильных решений</p>
@@ -177,36 +183,37 @@
                       <h3>Какие товары приносят прибыль</h3>
                       <p>Находите точки роста, делайте упор на рентабельные <br> товары и увеличивайте свой доход</p>
                   </div>
-              
-                  <picture class="marketing__img">
-                    <source media="(min-width: 928px)" srcset="img/product.png">
-                    <source media="(min-width: 385px)" srcset="img/product-mobile.png">
-                    <img src="img/product.png" alt="товары которые приносят прибыль">
-                  </picture>
-              </div>
-              <div class="marketing__item grid-item4 marketing__grid">
-                  <picture class="marketing__img marketing__img--table">
-                    <source media="(min-width: 928px)" srcset="img/table1.png">
-                    <source media="(min-width: 385px)" srcset="img/table1-mobile.png">
-                    <img src="img/table1.png" alt="таблицы">
-
-                    <picture class="marketing__img--money">
-                      <source media="(min-width: 928px)" srcset="img/table1-1.png"">
-                      <img class="" src="img/table1-1.png"" alt="таблицы">
+                  <div class="marketing__img">
+                    <picture>
+                      <source media="(min-width: 928px)" srcset="img/product.png">
+                      <source media="(min-width: 385px)" srcset="img/product-mobile.png">
+                      <img src="img/product.png" style="max-width: 100%" alt="товары которые приносят прибыль">
                     </picture>
-                  </picture>
-          
-                  <div class="marketing__content">
-                      <h3>Сокращайте лишние расходы</h3>
-                      <p>Анализируйте расходы, убирать ненужные издержки и находите возможности повышать прибыльность бизнеса</p>
                   </div>
               </div>
+              <div class="marketing__item grid-item4 marketing__grid">
+                <div class="marketing__img marketing__img--table">
+                  <picture>
+                    <source media="(min-width: 928px)" srcset="img/table1.png">
+                    <source media="(min-width: 385px)" srcset="img/table1-mobile.png">
+                    <img src="img/table1.png" style="max-width: 100%" alt="таблицы">
+
+                    <picture class="marketing__img--money">
+                      <source media="(min-width: 928px)" srcset="img/table1-1.png">
+                      <img class="marketing__img--none" src="img/table1-1.png" style="max-width: 100%" alt="таблицы">
+                    </picture>
+                  </picture>
+                </div>
+                <div class="marketing__content">
+                  <h3>Сокращайте лишние расходы</h3>
+                  <p>Анализируйте расходы, убирать ненужные издержки и находите возможности повышать прибыльность бизнеса</p>
+                </div>
               </div>
             </div>
         </section>
 
         <section class="savings">
-          <div class="container">
+          <div class="container savings__сontainer">
             <h2 class="savings__title">Экономьте время и нервы на учете</h2>
             <p class="savings__text">Автоматическая синхронизация данных с маркетплейсов позволит вам мгновенно получать все важный показатели бизнеса на одном экране. А с помощью мобильной версии вы сможете вносить расходы всего пару кликов</p>
             <div class="savings__btn">
@@ -272,7 +279,7 @@
           </div>
         </section>
         <section class="reliability">
-              <div class="container">
+              <div class="container reliability__container">
                 <div class="reliability__item">
                   <div class="reliability__item--svg">
                       <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -334,7 +341,7 @@
               </div>
         </section>
         <section class="mobile">
-            <div class="container">
+            <div class="container mobile__container">
                 <div class="mobile__content">
                   <h2 class="mobile__title">Мобильная версия</h2>
                   <p class="mobile__text">Пользоваться всем функционалом сервиса удобно в любом месте и с любых устройств</p>
@@ -348,11 +355,13 @@
         </section>
         <section class="support">
             <div class="container support__container">
-              <picture class="support__img">
-                <source media="(min-width: 1127px)" srcset="img/woman.png">
-                <source media="(min-width: 375px)" srcset="img/woman-mobile.png">
-                <img src="img/woman.png" alt="фото-девушки">
-              </picture>
+              <div class="support__img">
+                <picture>
+                  <source media="(min-width: 1127px)" srcset="img/woman.png">
+                  <source media="(min-width: 375px)" srcset="img/woman-mobile.png">
+                  <img src="img/woman.png" style="max-width: 100%" alt="фото-девушки">
+                </picture>
+              </div>
               <div class="support__content">
                 <h2 class="support__title">Поддержка клиентов</h2>
                 <p class="support__text">Мы всегда готовы ответить на любые вопросы в онлайн чате или по телефону.</p>
@@ -396,7 +405,7 @@
             </div>
         </section>
         <section class="rate">
-          <div class="container">
+          <div class="container rate__container">
             <h2 class="rate__title">Тарифы</h2>
             <p class="rate__text">Все тарифы имеют полный функционал и отличаются только количеством месяцев и выгодой</p>
             <div class="rate__content">
