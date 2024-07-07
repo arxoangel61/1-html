@@ -29,7 +29,7 @@
 }
 
 @media (max-width: 610px) { 
-    .mobile__container{
+    .mobile > .container{
         margin-top: 64px;
         align-items: start;
 
