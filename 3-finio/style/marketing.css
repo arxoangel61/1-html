@@ -9,7 +9,6 @@
 
 .marketing__container {
     display: grid;
-    grid-template: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
     "item1"
@@ -19,18 +18,13 @@
    gap: 120px 0;
 }
 
-.grid-item1, .grid-item2, .grid-item3, .grid-item4 {
- 
-    
-}
-
 .grid-item1 {
     grid-area: item1;
     justify-content: space-around;
 }
 .grid-item1 {
     display: grid;
-    grid-template: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     "text img";
 }
@@ -42,7 +36,7 @@
 }
 .grid-item2 {
     display: grid;
-    grid-template: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     "img text";
 }
@@ -53,7 +47,7 @@
 }
 .grid-item3 {
     display: grid;
-    grid-template: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     "text img";
 }
@@ -63,7 +57,7 @@
 }
 .grid-item4 {
     display: grid;
-    grid-template: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     "img text";
 }
@@ -142,6 +136,11 @@ picture {
 .marketing__link {
     position: absolute;
     bottom: -50px;
+
+    height: 2px;
+    background-color: rgba(78, 93, 124, 0.08);
+    width: 100%;
+    margin: 0 auto;
 }
 
 

@@ -9,14 +9,15 @@
 .header {
     background-color: #357EFE;
     color: #fff;
+    padding-top: 53px;
+    padding-bottom: 100px;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 53px;
-    padding-bottom: 100px;
+
 }
 
 

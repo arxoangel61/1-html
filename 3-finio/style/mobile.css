@@ -7,6 +7,8 @@
     padding-bottom: 120px;
 }
 
+
+
 .mobile__title {
     font-weight: 600;
     font-size: 48px;
@@ -22,10 +24,17 @@
     text-align: center;
     color: rgba(78, 93, 124, 0.5);
 }
+.mobile__img {
+    display: flex;
+    justify-content: center;
+}
+
+
 .mobile__img img{
     margin-top: 40px;
     
     width: 100%;
+    max-width: 1128px;
 }
 
 @media (max-width: 610px) { 

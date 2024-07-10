@@ -1,9 +1,12 @@
 .financial {
-    display: flex;
-    
-    background: linear-gradient(175deg, #357EFE 70%, #fff 30%);
-    padding-left: 250px;
+    background: linear-gradient(175deg, #357EFE 70%, #fff 30%);                     
 }
+
+.financial__container {
+    display: flex;
+}
+
+
 
 .financial__contant {
 }
@@ -73,9 +76,7 @@
     }
 
     .financial {
-        padding-left: 250px;
-        padding-right: 250px;
-
+     
     }
 
 
@@ -84,6 +85,9 @@
         .financial {
             padding-left: 25px;
             padding-right: 25px;
+        }
+
+        .financial__container {
             justify-content: center;
         }
 
