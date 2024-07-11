@@ -195,7 +195,7 @@
         width: 328px;
     }
     .rate__item {
-        width: 100%;
+        /* width: 100%; */
     }
     .rate {
         padding-bottom: 64px

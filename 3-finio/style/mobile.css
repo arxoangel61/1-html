@@ -37,7 +37,7 @@
     max-width: 1128px;
 }
 
-@media (max-width: 610px) { 
+@media (max-width: 900px) { 
     .mobile > .container{
         margin-top: 64px;
         align-items: start;
@@ -50,9 +50,10 @@
     }
 
     .mobile__img img{
-       margin-top: 32px;
-        max-width: 450px;
+        margin-top: 32px;
+        width: 450px;
         height: 450px;
+       
     }
 
     .mobile__img {

@@ -3,7 +3,10 @@
     background-color: #1A1D25;
     color: rgba(255, 255, 255, 0.7);;
 }
-.container {
+.footer__container {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
 }
 
 .footer__content {
@@ -97,7 +100,7 @@
     width: 100%;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 1220px) { 
     .footer__content {
         flex-direction: column;
     }
@@ -129,6 +132,11 @@
     .footer__rights p {
         margin: 0;
         margin-top: 24px;
+    }
+
+    .footer__container {
+        padding-left: 25px;
+        padding-right: 25px;
     }
    
 }

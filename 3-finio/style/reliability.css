@@ -35,8 +35,7 @@
 @media (max-width: 1530px) { 
     .reliability__container {
         flex-wrap: wrap;
-        padding-left: 100px;
-        padding-right: 100px;
+     
         
     }
 
@@ -51,9 +50,17 @@
     }
 }
 
+@media (max-width: 900px) {
+    .reliability__item {
+        padding-left: 23px;
+        
+    }
+}
 
 
-@media (max-width: 610px) { 
+
+
+@media (max-width: 900px) { 
     .reliability__item--svg svg {
         width: 64px;
         height: 64px;
@@ -72,8 +79,7 @@
     }
 
     .reliability__container {
-        padding-left: 23px;
-        padding-right: 23px;
+    
         align-items: start;
     }
 }

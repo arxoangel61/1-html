@@ -4,6 +4,7 @@
 
 .financial__container {
     display: flex;
+    justify-content: center;
 }
 
 
@@ -54,8 +55,9 @@
         display: none;
     }
 
-    .financial__contant {
-        
+    .financial__container {
+        justify-content: center;
+        align-items: center;
         
     }
 
@@ -79,12 +81,31 @@
      
     }
 
+    .financial__title h1{
+        width: 100%;
+        max-width: 750px;
+    }
+
+    }
+
+    @media (max-width: 1350px) {
+
+
+
+        .financial__container {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+     
+    }
+
 
     @media (max-width: 900px) {
 
         .financial {
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
 
         .financial__container {
@@ -112,4 +133,4 @@
         }
      
     }
-}
+

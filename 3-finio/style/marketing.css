@@ -64,14 +64,21 @@
 
 .grid-item1 > .marketing__content {
     margin-top: 103px;
+    align-items: center;
 }
 
 .grid-item2 > .marketing__content {
     margin-top: 102px;
+    align-items: center;
+}
+
+.grid-item3 > .marketing__content {
+    align-items: center;
 }
 
 .grid-item4 > .marketing__content {
     margin-top: 60px;
+    align-items: center;
 }
 
 
@@ -153,17 +160,11 @@ picture {
     }
 }
 
-@media (max-width: 1450px) {
-    .container {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
 
-@media (max-width: 1300px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
+@media (max-width: 1450px) {
+    .marketing__container {
+        padding-left: 0px;
+        padding-right: 0px;
     }
   
 

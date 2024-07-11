@@ -118,8 +118,7 @@
 
 @media (max-width: 1210px) { 
     .savings__сontainer {
-        padding-left: 100px;
-        padding-right: 100px;
+       
     }
     .savings__list {
         flex-direction: column;
@@ -136,10 +135,10 @@
     }
 }
 
-@media (max-width: 770px) { 
+@media (max-width: 1200px) { 
     .savings__сontainer {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .savings__title {
         font-size: 36px;
@@ -163,8 +162,8 @@
         padding-bottom: 64px;
     }
     .savings__сontainer {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .savings__list {
         justify-content: center;
