@@ -125,8 +125,8 @@
 
 .marketing__img--text {
     position: absolute;
-    top: 152px;
-    left: 172px;
+    top: 129px;
+    left: 370px;
     display: flex;
     gap: 0 30px;
     width: 450px;
@@ -152,8 +152,8 @@
 
 .marketing__img--square {
     position: absolute;
-    top: 218px;
-    left: 285px;
+    top: 204px;
+    left: 479px;
     z-index: 20;
 }
 
@@ -188,6 +188,19 @@ picture {
         flex-direction: row-reverse;
   
     }
+
+    .marketing__img--text {
+        position: absolute;
+        top: 152px;
+        left: 172px;
+        
+    }
+    .marketing__img--square {
+        position: absolute;
+        top: 218px;
+        left: 285px;
+    }
+    
 }
 
 
