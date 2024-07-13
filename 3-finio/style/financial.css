@@ -1,0 +1,136 @@
+.financial {
+    background: linear-gradient(175deg, #357EFE 70%, #fff 30%);                     
+}
+
+.financial__container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.financial__contant {
+}
+
+.financial__title {
+    max-width: 515px;
+    width: 100%;
+}
+
+
+.financial__title h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.financial__btn  {
+    margin-top: 40px;
+}
+
+
+.financial__btn button{
+    border-radius: 34px;
+    padding: 12px 32px;
+    color: #357efe;
+}
+.btn {
+}
+.financial__partners {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px 18px;
+    max-width: 334px;
+}
+.financial__img img {
+    max-width: 1039px;
+    width: 100%;
+}
+
+
+@media (max-width: 1600px) {
+    .financial__img {
+        display: none;
+    }
+
+    .financial__container {
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .financial__partners {
+        margin-top: 40px;
+        padding-bottom: 200px;
+    }
+
+    .financial__title {
+        max-width: 100%;
+        text-align: center;
+        
+    }
+
+    .financial__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .financial {
+     
+    }
+
+    .financial__title h1{
+        width: 100%;
+        max-width: 750px;
+    }
+
+    }
+
+    @media (max-width: 1350px) {
+
+
+
+        .financial__container {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+     
+    }
+
+
+    @media (max-width: 900px) {
+
+        .financial {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .financial__container {
+            justify-content: center;
+        }
+
+
+        .financial__title h1{
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 120%;
+            text-align: left;
+        }
+
+        .financial__title {
+            max-width: 328px;
+            width: 100%;
+        }
+
+        .financial__btn {
+            margin-top: 32px
+        }
+        .financial__partners  {
+            margin-top: 56px;
+        }
+     
+    }
+
